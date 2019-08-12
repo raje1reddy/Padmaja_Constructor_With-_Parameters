@@ -2,8 +2,9 @@
 class Employee {
     String name;
     int age;
-    Employee(){
-        age = 20;
+    Employee(int newAge, String newName){
+        age = newAge;
+        name = newName;
         System.out.println("user defined constructor");
 
     }
